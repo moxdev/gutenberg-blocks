@@ -8,9 +8,7 @@ import metadata from './block.json';
 import Edit from './edit';
 import save from './save';
 
-const x = 'hello from the outside';
-
-registerBlockType( metadata.name, {
+registerBlockType(metadata.name, {
 	edit: Edit,
 	save,
-} );
+});
